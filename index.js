@@ -10,7 +10,7 @@ codes.forEach((code,idx)=>{
     code.addEventListener('keydown',(e)=>{
        
             if(fill === false){
-                if(e.key >= 0 && e.key <= 9 && idx>0){
+                if(e.key >= 0 && e.key <= 9 && idx>=0){
                     executing = false
                     fill = true
                     codes[idx].value = ''
